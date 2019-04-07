@@ -13,7 +13,7 @@ class User {
     var adequateDay = 0
     var adequateHour = 0
     var adequateMinute = 0
-    var location = ""
+    var location = "oie"
     
 }
 
