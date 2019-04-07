@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 class User {
     var adequateYear = 0
     var adequateMonth = 0

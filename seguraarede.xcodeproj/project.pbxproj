@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		497387882259F88400C08321 /* seguraarede.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4973877E2259F88400C08321 /* seguraarede.framework */; };
 		4973878D2259F88400C08321 /* seguraaredeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973878C2259F88400C08321 /* seguraaredeTests.swift */; };
-		4973878F2259F88400C08321 /* seguraarede.h in Headers */ = {isa = PBXBuildFile; fileRef = 497387812259F88400C08321 /* seguraarede.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		497387992259FD2F00C08321 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497387982259FD2F00C08321 /* Notifications.swift */; };
 		4973879F2259FFAB00C08321 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973879E2259FFAB00C08321 /* User.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		4973877E2259F88400C08321 /* seguraarede.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = seguraarede.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		497387812259F88400C08321 /* seguraarede.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seguraarede.h; sourceTree = "<group>"; };
 		497387822259F88400C08321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497387872259F88400C08321 /* seguraaredeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seguraaredeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4973878C2259F88400C08321 /* seguraaredeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seguraaredeTests.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 		497387802259F88400C08321 /* seguraarede */ = {
 			isa = PBXGroup;
 			children = (
-				497387812259F88400C08321 /* seguraarede.h */,
 				497387982259FD2F00C08321 /* Notifications.swift */,
 				4973879E2259FFAB00C08321 /* User.swift */,
 				497387822259F88400C08321 /* Info.plist */,
@@ -99,7 +96,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4973878F2259F88400C08321 /* seguraarede.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

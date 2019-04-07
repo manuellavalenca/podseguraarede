@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "seguraarede"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "Um pod para identificar o melhor momento para enviar mensagens seguras."
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios, "12.0"
-  swift_version     = "4.2"
+  spec.swift_version     = "4.2"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "12.0"

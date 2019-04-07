@@ -9,9 +9,9 @@
 import Foundation
 import UserNotifications
 
-class CustomNotifications {
+public class CustomNotifications {
     
-    func addNotification(isRepeated: Bool = false, identifier: String, titleNotification: String = "", contentNotification: String = "") {
+    public func addNotification(isRepeated: Bool = false, identifier: String, titleNotification: String = "", contentNotification: String = "") {
         // Notifications configuration
         let center =  UNUserNotificationCenter.current()
         
@@ -19,6 +19,7 @@ class CustomNotifications {
         let content = UNMutableNotificationContent()
         content.title = titleNotification
         content.body = contentNotification
+        content.sound = UNNotificationSound.default
         
         var date = DateComponents()
         
