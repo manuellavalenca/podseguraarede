@@ -11,7 +11,7 @@ import UserNotifications
 
 public class CustomNotification {
     
-    public init(isRepeated: Bool = false, identifier: String, titleNotification: String = "", contentNotification: String = "") {
+    public init(isRepeated: Bool = false, identifier: String, titleNotification: String = "", contentNotification: String = "", safeHour: Int = 0, safeMinute: Int = 0) {
         let center =  UNUserNotificationCenter.current()
         
         // Content for the notification
@@ -28,8 +28,8 @@ public class CustomNotification {
         date.year = components.year
         date.month = components.month
         date.day = components.day
-        date.hour = user.adequateHour
-        date.minute = user.adequateMinute
+        date.hour = safeHour
+        date.minute = safeMinute
         
         let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
         let request = UNNotificationRequest(identifier: "ContentIdentifier", content: content, trigger: trigger)

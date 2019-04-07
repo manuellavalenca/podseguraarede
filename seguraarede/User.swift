@@ -7,14 +7,9 @@
 //
 
 import Foundation
+
 public class User {
-    var adequateYear = 0
-    var adequateMonth = 0
-    var adequateDay = 0
-    var adequateHour = 0
-    var adequateMinute = 0
-    
-    var location = "oie"
+
     
 }
 
