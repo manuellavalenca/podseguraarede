@@ -19,7 +19,6 @@ class CustomNotifications {
         let content = UNMutableNotificationContent()
         content.title = titleNotification
         content.body = contentNotification
-        content.sound = UNNotificationSound.default
         
         var date = DateComponents()
         

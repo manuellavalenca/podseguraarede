@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "seguraarede"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "Um pod para identificar o melhor momento para enviar mensagens seguras."
 
   # This description is used to generate tags and improve search results.
@@ -24,10 +24,10 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
+  spec.description  = <<-DESC "Este é um pod para identificar o melhor momento para enviar mensagens seguras."
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/seguraarede"
+  spec.homepage     = "https://github.com/manuellavalenca/podseguraarede"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MIT License"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,8 +62,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "12.0"
+  swift_version     = "4.2"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "12.0"
@@ -90,9 +89,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "seguraarede", "seguraarede/**/*.{h,m}"
+  spec.exclude_files = "seguraarede/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "seguraarede/**/*.h"
 
 end
