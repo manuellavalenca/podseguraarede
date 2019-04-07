@@ -1,0 +1,6 @@
+module Pods_seguraarede {
+  umbrella header "Pods-seguraarede-umbrella.h"
+
+  export *
+  module * { export * }
+}
