@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class User {
+public class User {
     var adequateYear = 0
     var adequateMonth = 0
     var adequateDay = 0
@@ -18,4 +18,4 @@ class User {
     
 }
 
-let user = User()
+let userSegura = User()
