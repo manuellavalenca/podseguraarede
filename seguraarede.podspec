@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "seguraarede"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "Um pod para identificar o melhor momento para enviar mensagens seguras."
 
   # This description is used to generate tags and improve search results.
