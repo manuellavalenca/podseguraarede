@@ -9,10 +9,9 @@
 import Foundation
 import UserNotifications
 
-public class CustomNotifications {
+public class CustomNotification {
     
-    public func addNotification(isRepeated: Bool = false, identifier: String, titleNotification: String = "", contentNotification: String = "") {
-        // Notifications configuration
+    public init(isRepeated: Bool = false, identifier: String, titleNotification: String = "", contentNotification: String = "") {
         let center =  UNUserNotificationCenter.current()
         
         // Content for the notification
