@@ -21,10 +21,13 @@ public class CustomNotification {
         content.sound = UNNotificationSound.default
         
         var date = DateComponents()
+        let currentDate = Date()
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.year, .month, .day], from: currentDate)
         
-        date.year = user.adequateYear
-        date.month = user.adequateMonth
-        date.day = user.adequateDay
+        date.year = components.year
+        date.month = components.month
+        date.day = components.day
         date.hour = user.adequateHour
         date.minute = user.adequateMinute
         
