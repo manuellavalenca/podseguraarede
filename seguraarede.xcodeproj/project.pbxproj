@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B64F879228E8CBE005A3538 /* SafeSpaceUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B64F878228E8CBE005A3538 /* SafeSpaceUser.swift */; };
+		2B64F87B228E8D95005A3538 /* SafeSpaceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B64F87A228E8D95005A3538 /* SafeSpaceLocation.swift */; };
+		2B64F87D228E8D9C005A3538 /* SafeSpaceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B64F87C228E8D9C005A3538 /* SafeSpaceTime.swift */; };
 		497387882259F88400C08321 /* seguraarede.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4973877E2259F88400C08321 /* seguraarede.framework */; };
 		4973878D2259F88400C08321 /* seguraaredeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973878C2259F88400C08321 /* seguraaredeTests.swift */; };
 		497387992259FD2F00C08321 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497387982259FD2F00C08321 /* Notifications.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B64F878228E8CBE005A3538 /* SafeSpaceUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeSpaceUser.swift; sourceTree = "<group>"; };
+		2B64F87A228E8D95005A3538 /* SafeSpaceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeSpaceLocation.swift; sourceTree = "<group>"; };
+		2B64F87C228E8D9C005A3538 /* SafeSpaceTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeSpaceTime.swift; sourceTree = "<group>"; };
 		4973877E2259F88400C08321 /* seguraarede.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = seguraarede.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		497387822259F88400C08321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497387872259F88400C08321 /* seguraaredeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seguraaredeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +79,9 @@
 			children = (
 				497387982259FD2F00C08321 /* Notifications.swift */,
 				497387822259F88400C08321 /* Info.plist */,
+				2B64F878228E8CBE005A3538 /* SafeSpaceUser.swift */,
+				2B64F87A228E8D95005A3538 /* SafeSpaceLocation.swift */,
+				2B64F87C228E8D9C005A3538 /* SafeSpaceTime.swift */,
 			);
 			path = seguraarede;
 			sourceTree = "<group>";
@@ -194,6 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B64F87D228E8D9C005A3538 /* SafeSpaceTime.swift in Sources */,
+				2B64F879228E8CBE005A3538 /* SafeSpaceUser.swift in Sources */,
+				2B64F87B228E8D95005A3538 /* SafeSpaceLocation.swift in Sources */,
 				497387992259FD2F00C08321 /* Notifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
